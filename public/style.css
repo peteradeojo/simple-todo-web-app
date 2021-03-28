@@ -1,0 +1,38 @@
+body {
+	position: relative;
+}
+.bg-theme {
+	background: #a770ef; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+}
+.input-box #register-todo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+#todo-item {
+	flex-grow: 1;
+	padding: 0.4rem;
+}
+#todo-list {
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+#todo-list li {
+	display: flex;
+	padding: 12px 2px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.todo-text.pending {
+	font-weight: 700;
+}
+.set-status {
+	color: red;
+}
+.set-status.complete [class*='fa-'] {
+	color: blue;
+}

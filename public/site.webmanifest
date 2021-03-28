@@ -1,0 +1,13 @@
+{
+	"name": "Todo",
+	"short_name": "Todo",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#a770ef",
+	"theme_color": "#a770ef",
+	"orientation": "portrait",
+	"icons": [
+		{ "src": "./android-chrome-192x192.png", "sizes": "192x192" },
+		{ "src": "./android-chrome-512x512.png", "sizes": "512x512" }
+	]
+}
